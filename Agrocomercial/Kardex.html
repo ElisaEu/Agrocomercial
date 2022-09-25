@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARDEX</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .main-nav{
+           background-image: url(imagenes/completo.jpeg);
+           height: 750px;
+           width: 1200px;
+           margin: 2px 20px;
+           margin-left: 70px;
+        }  
+        .nav{
+        padding: 6px 5px 9px;
+        margin: 10px -200px; 
+        margin-bottom: 30px; 
+        margin-left: 80px;
+        font-size: 15px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+
+      }
+      .nav-link:hover{
+        color: black;
+        background-color:blue;
+      }
+      li{
+        margin-top: 20px;
+        font-size: 15px;
+      }
+      .nav-link{
+        color:white;
+      }
+      .nav-link1{
+        background-color: red;
+        border-radius: 15px;
+        margin: 20px;
+        font-size: 15px;
+        color: white;
+        padding: 5px;
+      }
+        
+</style>
+
+</head>
+<body>
+    <nav class="main-nav">
+        <a href="#" class="nav-toggle"></a>
+        <ul id="sub-nav" class="nav">
+      
+            <li><a href="file:///C:/xampp/htdocs/Agrocomercial/home.html" class="nav-link">HOME</a></li>
+            <li><a href="file:///C:/xampp/htdocs/Agrocomercial/inventario.html" class="nav-link">COMPRA</a></li>
+            <a href="#"class="nav-link1">KARDEX</a>
+            <li><a href="file:///C:/xampp/htdocs/Agrocomercial/Proveedor.html" class="nav-link">PROVEEDOR</a></li>
+            <li><a href="file:///C:/xampp/htdocs/Agrocomercial/Producto.html" class="nav-link">PRODUCTO</a></li> 
+            </ul>
+            <button type="button" class="btn btn-primary btn-sm">Agregar</button>
+            <button type="button" class="btn btn-info btn-sm">Guardar</button>
+            <ul></ul>
+            <table class="table table table-striped table-bordered table-success ">
+      <thead class="thead-ligth ">
+        <tr>
+        <tr>
+        <th scope="col ">Acciones</th>
+        <th scope="col ">ID</th>
+        <th scope="col">Fecha</th>
+        <th scope="col">Factura</th>
+        <th scope="col">Usuario</th>
+        <th scope="col justify-content-center">Movimiento</th>
+        <th scope="col">Stock Inicial</th>
+        <th scope="col">Ingresos</th>
+        <th scope="col">Egresos</th>
+        <th scope="col">Stock Anual</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"> <button type="button" class="btn btn-warning btn-sm">Editar</button> |  <button type="button" class="btn btn-danger btn-sm">Eliminar</button></th>
+        <th scope="row">1</th>
+        <td>10/7/2022</td>
+        <td> F001</td>
+        <td>ADM145</td>
+        <td>Compra</td>
+        <td>1</td>
+        <td>3</td>
+        <td>2</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <th scope="row"> <button type="button" class="btn btn-warning btn-sm">Editar</button> |  <button type="button" class="btn btn-danger btn-sm">Eliminar</button></th>
+        <th scope="row">1</th>
+        <td>10/7/2022</td>
+        <td> F002</td>
+        <td>ADM145</td>
+        <td>Venta</td>
+        <td>1</td>
+        <td>6</td>
+        <td>2</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <th scope="row"> <button type="button" class="btn btn-warning btn-sm">Editar</button> |  <button type="button" class="btn btn-danger btn-sm">Eliminar</button></th>
+        <th scope="row">1</th>
+        <td>10/7/2022</td>
+        <td> F004</td>
+        <td>ADM145</td>
+        <td>Compra</td>
+        <td>1</td>
+        <td>2</td>
+        <td>5</td>
+        <td>8</td>
+      </tr>
+    </nav> 
+</body>
+</html>

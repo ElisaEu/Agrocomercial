@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESCUENTO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .main-nav{
+           background-image: url(imagenes/completo.jpeg);
+           height: 750px;
+           width: 1200px;
+           margin: 2px 20px;
+           margin-left: 70px;
+        }  
+        .nav{
+        padding: 6px 5px 9px;
+        margin: 10px -200px; 
+        margin-bottom: 30px; 
+        margin-left: 80px;
+        font-size: 15px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+
+      }
+      .nav-link:hover{
+        color: black;
+        background-color:blue;
+      }
+      li{
+        margin-top: 20px;
+        font-size: 15px;
+      }
+      .nav-link{
+        color:white;
+      }
+      .nav-link1{
+        background-color: red;
+        border-radius: 15px;
+        margin: 20px;
+        font-size: 15px;
+        color: white;
+        padding: 5px;
+      } 
+        
+</style>
+
+</head>
+<body>
+    <nav class="main-nav">
+        <a href="#" class="nav-toggle"></a>
+        <ul id="sub-nav" class="nav">
+            <li><a href="file:///C:/xampp/htdocs/Agrocomercial/home.html" class="nav-link">HOME</a></li>
+            <li><a href="file:///C:/xampp/htdocs/Agrocomercial/Facturacion.html" class="nav-link">CLIENTES</a></li>
+            <li><a href="file:///C:/xampp/htdocs/Agrocomercial/venta.html" class="nav-link">VENTA</a></li>
+            <a href="#"class="nav-link1">DESCUENTO PRODUCTO</a>
+            <li><a href="file:///C:/xampp/htdocs/Agrocomercial/promocion.html" class="nav-link">PROMOCION PRODUCTO</a></li>
+            </ul>
+            <button type="button" class="btn btn-primary btn-sm">Agregar</button>
+            <button type="button" class="btn btn-info btn-sm">Guardar</button>
+            <table class="table table table-striped table-bordered table-success">
+              <thead>
+                <ul></ul>
+                <ul></ul>
+                <thead class="thead-ligth ">
+                  <tr>
+                  <tr>
+                  <th scope="col">Acciones</th>
+                  <th scope="col">ID Descuento</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Porcentaje</th>          
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row"> <button type="button" class="btn btn-warning btn-sm">Editar</button> |  <button type="button" class="btn btn-danger btn-sm">Eliminar</button></th>
+                  <td>202201</td>
+                  <td>1er descuento del año</td>
+                  <td>25% en alimentos y vitaminas</td>                                
+                </tr>
+                <tr>
+                  <th scope="row"> <button type="button" class="btn btn-warning btn-sm">Editar</button> |  <button type="button" class="btn btn-danger btn-sm">Eliminar</button></th>
+                  <td>202202</td>
+                  <td>Descuento de verano</td>
+                  <td>20% en herbicidas, fungicidas e insecticidas</td>             
+                </tr>
+                <tr>
+                  <th scope="row"> <button type="button" class="btn btn-warning btn-sm">Editar</button> |  <button type="button" class="btn btn-danger btn-sm">Eliminar</button></th>
+                  <td>202203</td>
+                  <td>Descuento Navideño</td>
+                  <td>15% en todos los productos</td>               
+      </nav>    
+</body>
+</html>
